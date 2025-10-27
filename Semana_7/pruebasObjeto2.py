@@ -7,3 +7,5 @@ if otraPersona < unaPersona:
     print("Maria es menor")
 else:
     print("Greivin es menor")
+    
+    

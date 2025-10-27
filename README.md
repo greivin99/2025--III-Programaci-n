@@ -5,9 +5,9 @@ Este repositorio contiene mi progreso y ejercicios del curso de programación (2
 - `Semana-01/` - Ejercicios - Basics
 - `Semana-02/` - Ejercicios | funciones
 - `Semana-03/` - Ejercicios
-- `Semana-06/` - Ejercicios | modularizacion
-- `Semana-07/` - Ejercicios | Metodos
+- `Semana-06/` - Ejercicios | Medotos y Modularizacion
+- `Semana-07/` - Ejercicios | Clases, modulos y capas.
 - `Tarea Programada 1/` - Convertir CSV a JSON, XML y Trama de bytes
-- `Tarea Programada 2/` - Modularizacion
+- `Tarea Programada 2/` - Cifrado de texto en "cesar o vigenere | Usando modulos y capas.
 
 
