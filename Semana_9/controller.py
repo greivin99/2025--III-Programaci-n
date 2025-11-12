@@ -12,7 +12,7 @@ def process(option):
         print_persons_data(person_manager.find_persons_by_name(nombre_buscar))
     elif option == 4:
         dir_buscar = leer_direccion_a_buscar()
-        print_persons_data(person_manager)
+        print_persons_data(person_manager.find_persons_by_dir(dir_buscar))    
     else:
         print("opcion invalida.")
 
@@ -35,6 +35,6 @@ def print_persons_data(list_of_data):
 
 def leer_nombre_a_buscar():
     return io_utils.read_str("que nombre desea buscar? ")
-    
+
 def leer_direccion_a_buscar():
-    return io_utils.read_str("que direccion desea buscar? ")
+    return io_utils.read_str("que direccion desea buscar? ")    

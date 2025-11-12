@@ -1,0 +1,11 @@
+def display_menu():
+    print("\n" + "=" * 50)
+    print("         MENU DE PRODUCTOS")
+    print("=" * 50)
+    print("1. Guardar datos de producto")
+    print("2. Listar productos")
+    print("3. Buscar productos")
+    print("4. Modificar producto")
+    print("5. Borrar producto")
+    print("6. Salir")
+    print("=" * 50)

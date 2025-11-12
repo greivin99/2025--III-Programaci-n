@@ -47,4 +47,19 @@ class Persona_Repo:
             direccion=row[4], fecha_nacimiento=row[5])
             result.append(nuevaPersona) 
         return result
-        
+    
+    def find_all_by_dir(self, dir_seq):
+        self.__cursor.execute("SELECT * FROM PERSONAS WHERE direccion LIKE ?", (f"%{dir_seq}%",))
+        rows = self.__cursor.fetchall()
+        result = []
+        for row in rows:
+            nuevaPersona = Persona(
+                nombre=row[1],
+                apellido1=row[2],
+                apellido2=row[3],
+                direccion=row[4],
+                fecha_nacimiento=row[5]
+            )
+            result.append(nuevaPersona)
+        return result
+  
