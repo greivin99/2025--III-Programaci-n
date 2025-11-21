@@ -10,6 +10,7 @@ Este repositorio contiene mi progreso y ejercicios del curso de programación (2
 - `Semana-8/` - Ejercicios | Clases y metodos
 - `Semana-9/` - Ejercicios | Base de datos y nuevas funciones para guardar los nombres
 - `Semana-10/` - Ejercicios | 
+- `Semana-11/` - Ejercicios | Relacion entre objetos
 - `Tarea Programada 1/` - Convertir CSV a JSON, XML y Trama de bytes
 - `Tarea Programada 2/` - Cifrado de texto en "cesar o vigenere | Usando modulos y capas.
 - `Tarea Programada 3/` - App para registrar, buscar y gestionar productos usando SQLite y guardando en DB.
